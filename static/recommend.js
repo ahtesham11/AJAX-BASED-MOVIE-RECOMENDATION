@@ -53,7 +53,7 @@ function load_details(my_api_key,title){
       }
     },
     error: function(){
-      alert('Invalid Request');
+      alert('ahtesham');
       $("#loader").delay(500).fadeOut();
     },
   });
