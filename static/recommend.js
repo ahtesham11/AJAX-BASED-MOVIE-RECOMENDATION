@@ -14,6 +14,7 @@ $(function() {
   $('.movie-button').on('click',function(){
     var my_api_key = 'c0aced95cb9f2be6a4c67b3eec6c5508';
     var title = $('.movie').val();
+    alert(title);
     if (title=="") {
       $('.results').css('display','none');
       $('.fail').css('display','block');
